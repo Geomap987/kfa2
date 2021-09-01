@@ -1,0 +1,9 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/font.css);
+
+:root{
+  --color-blue: #04488F;
+  --color-grey: #A3B1D7;
+  --color-black: #222222;
+  --color-white: #FFFFFF;
+}

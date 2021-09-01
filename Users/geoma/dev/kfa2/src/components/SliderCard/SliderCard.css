@@ -1,0 +1,123 @@
+.card {
+    width: 895px;
+    height: 496px;
+    background: var(--color-blue);
+    border-radius: 6px;
+    position: relative;
+    margin: 0 20px;
+    overflow: visible;
+}
+
+.card_blue {
+    background: var(--color-blue);
+}
+
+.card_black {
+    background: var(--color-black);
+}
+
+.card__wrapper {
+    width: 895px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card__text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    color: var(--color-white);
+    margin-left: 48px;
+}
+
+.card__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    margin: 48px 0 0;
+}
+
+.card__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    margin: 22px 0;
+    max-width: 290px;
+}
+
+.card__image1 {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: -30px;
+}
+
+.card__image2 {
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+}
+
+.card__image3 {
+    position: absolute;
+    right: -55px;
+    bottom: 0;
+}
+
+.card__image4 {
+    position: absolute;
+    right: -280px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1800px) {
+    .card {
+        width: 714px;
+        height: 400px;
+    }
+    .card__wrapper {
+        width: 714px;
+        height: 500px;
+    }
+    .card__text-container {
+        max-width: 330px;
+    }
+    .card__title {
+        font-size: 32px;
+        line-height: 145%;
+    }
+    .card__subtitle {
+        font-size: 12px;
+        line-height: 145%;
+        max-width: 250px;
+    }
+    .card__image1 {
+        height: 492px;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        bottom: -30px;
+    }
+    .card__image2 {
+        width: 542px;
+        position: absolute;
+        right: -40px;
+        bottom: 0;
+    }
+    .card__image3 {
+        width: 501px;
+        position: absolute;
+        right: -55px;
+        bottom: 0;
+    }
+    .card__image4 {
+        height: 480px;
+        position: absolute;
+        right: -280px;
+        bottom: 0;
+    }
+}

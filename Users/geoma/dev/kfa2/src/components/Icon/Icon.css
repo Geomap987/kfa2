@@ -1,0 +1,29 @@
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon__image {
+width: 74px;
+}
+
+.icon__label {
+margin: 0 0 0 18px;
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: var(--color-black);
+}
+
+@media screen and (max-width: 1330px) {
+.icon__image {
+    width: 47px;
+}
+
+.icon__label {
+    font-size: 12px;
+line-height: 145%;
+    }
+}

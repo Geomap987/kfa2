@@ -1,0 +1,29 @@
+.slider {
+    width: 100%;
+    margin: 0 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider__title {
+    margin: auto;
+    width: 62.5%;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+.slider__title span {
+    color: var(--color-blue)
+}
+
+@media screen and (max-width: 1480px) {
+    .slider {
+        width: 80%;
+    }}
+
+    @media screen and (max-width: 1330px) {
+        .slider {
+            width: 94%;
+        }}
